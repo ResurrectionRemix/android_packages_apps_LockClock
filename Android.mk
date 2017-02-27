@@ -27,9 +27,7 @@ LOCAL_AAPT_INCLUDE_ALL_RESOURCES := true
 LOCAL_AAPT_FLAGS := --auto-add-overlay
 
 LOCAL_STATIC_JAVA_LIBRARIES := \
+    org.cyanogenmod.platform.internal \
     org.cyanogenmod.platform.sdk
-
-LOCAL_JAVA_LIBRARIES += \
-    org.cyanogenmod.platform.internal
 
 include $(BUILD_PACKAGE)
